@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>i18n/tester_ar.qm</file>
+        <file>i18n/tester_de.qm</file>
+        <file>i18n/tester_en.qm</file>
+        <file>i18n/tester_fr.qm</file>
+        <file>i18n/tester_it.qm</file>
+        <file>i18n/tester_ru.qm</file>
+    </qresource>
+</RCC>

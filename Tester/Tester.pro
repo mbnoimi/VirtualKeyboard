@@ -4,35 +4,33 @@
 TARGET = Tester
 TEMPLATE = app
 
+INCLUDEPATH += ../WidgetKeyboard
+LIBS += -L../WidgetKeyboard/bin -lWidgetKeyboard
+
 greaterThan(QT_MAJOR_VERSION, 4) {
     QT += widgets multimedia
 }
 
 SOURCES += main.cpp \
     tester.cpp \
-    keyboard/QKeyPushButton.cpp \
-    keyboard/widgetKeyBoard.cpp \
     examplemyfocus.cpp
 
 HEADERS += tester.h \
-    keyboard/QKeyPushButton.h \
-    keyboard/widgetKeyBoard.h \
     examplemyfocus.h
 
 FORMS += tester.ui
 
-TRANSLATIONS += virtualBoard_it.ts \
-    virtualBoard_ru.ts \
-    virtualBoard_en.ts \
-    virtualBoard_de.ts \
-    virtualBoard_fr.ts \
-    virtualBoard_ar.ts
-
-RESOURCES += virtualboard.qrc \
-    languages.qrc
+TRANSLATIONS += \
+    i18n/tester_it.ts \
+    i18n/tester_ru.ts \
+    i18n/tester_en.ts \
+    i18n/tester_de.ts \
+    i18n/tester_fr.ts \
+    i18n/tester_ar.ts
 
 OTHER_FILES += \
-    *.ts
+    i18n/*.ts
 
-DISTFILES += \
-    uncrustify.cfg
+RESOURCES += \
+    resources.qrc
+

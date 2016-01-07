@@ -2,7 +2,7 @@
 #include "tester.h"
 
 
-exampleMyFocus::exampleMyFocus(QWidget *parent, widgetKeyBoard *keyBoard) : QLineEdit(parent), m_keyBoard(keyBoard)
+exampleMyFocus::exampleMyFocus(QWidget *parent, WidgetKeyBoard *keyBoard) : QLineEdit(parent), m_keyBoard(keyBoard)
 {
     //this->setEchoMode(QLineEdit::Password);
 }

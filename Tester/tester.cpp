@@ -14,7 +14,7 @@ Tester::Tester(QWidget *parent)
 
     ui->setupUi(this);    
     myTranslator = new QTranslator(this);
-    this->myKeyboard = new widgetKeyBoard(false);
+    this->myKeyboard = new WidgetKeyBoard(false);
     this->myKeyboard->setZoomFacility(true);
     this->myKeyboard->enableSwitchingEcho(true); // enable possibility to change echo through keyboard
     this->myKeyboard->createKeyboard(); // only create keyboard
@@ -38,7 +38,7 @@ Tester::~Tester()
     delete (this->myKeyboard);
 }
 
-widgetKeyBoard *Tester::getKeyboard()
+WidgetKeyBoard *Tester::getKeyboard()
 {
     return (this->myKeyboard);
 }
@@ -94,7 +94,8 @@ void Tester::on_listWidget_itemClicked(QListWidgetItem *item)
         local = new QLocale(QLocale::Arabic);
     else
         local = new QLocale();
-    if (myTranslator->load(*local, QLatin1String("virtualBoard"), QLatin1String("_"), QLatin1String(":/")))
+    //FIXME Unable to load translation for WidgetKeyboard!
+    if (myTranslator->load(*local, QLatin1String("tester"), QLatin1String("_"), QLatin1String(":/i18n")))
         qApp->installTranslator(myTranslator);
     else
         qDebug("Failed to load a translation for QT in your local language");

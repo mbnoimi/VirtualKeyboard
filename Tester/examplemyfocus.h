@@ -2,7 +2,7 @@
 #define EXAMPLEMYFOCUS_H
 
 #include <QLineEdit>
-#include "keyboard/widgetKeyBoard.h"
+#include "../WidgetKeyboard/widgetkeyboard.h"
 
 //
 // If you want to change existing QLineEdit in your ui files, since moc generation, the only way is to "Promote" your
@@ -11,10 +11,10 @@
 class exampleMyFocus : public QLineEdit
 {
     private:
-        widgetKeyBoard *m_keyBoard;
+        WidgetKeyBoard *m_keyBoard;
 
     public:
-        exampleMyFocus(QWidget *parent = NULL, widgetKeyBoard *keyBoard = NULL);
+        exampleMyFocus(QWidget *parent = NULL, WidgetKeyBoard *keyBoard = NULL);
 
     protected:
         void focusInEvent (QFocusEvent * event);

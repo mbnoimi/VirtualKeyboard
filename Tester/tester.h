@@ -2,7 +2,7 @@
 #define TESTER_H
 
 #include <QWidget>
-#include "keyboard/widgetKeyBoard.h"
+#include "../WidgetKeyboard/widgetkeyboard.h"
 #include "examplemyfocus.h"
 #include <QListWidget>
 #include <QListWidgetItem>
@@ -22,11 +22,11 @@ public:
     Tester(QWidget *parent = 0);
     ~Tester();
 
-    widgetKeyBoard *    getKeyboard();
+    WidgetKeyBoard *    getKeyboard();
 
 private:    
     Ui::Tester      *ui;
-    widgetKeyBoard  *myKeyboard;
+    WidgetKeyBoard  *myKeyboard;
     QTranslator     *myTranslator;
 
 protected:

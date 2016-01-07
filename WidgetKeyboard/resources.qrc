@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/TastieraVirtuale">
+    <qresource prefix="/images">
         <file alias="logo">images/keyboard.png</file>
         <file alias="passwdEcho">images/encrypted.png</file>
         <file alias="normalEcho">images/decrypted.png</file>
