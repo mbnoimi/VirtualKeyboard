@@ -10,4 +10,12 @@
     <qresource prefix="/">
         <file>sounds/click.wav</file>
     </qresource>
+    <qresource prefix="/languages">
+        <file alias="arabic">i18n/WidgetKeyboard_ar.qm</file>
+        <file alias="german">i18n/WidgetKeyboard_de.qm</file>
+        <file alias="english">i18n/WidgetKeyboard_en.qm</file>
+        <file alias="french">i18n/WidgetKeyboard_fr.qm</file>
+        <file alias="italian">i18n/WidgetKeyboard_it.qm</file>
+        <file alias="russian">i18n/WidgetKeyboard_ru.qm</file>
+    </qresource>
 </RCC>

@@ -23,6 +23,7 @@
 
 QKeyPushButton::QKeyPushButton(QString notTranslatedText, QWidget *parent) : QPushButton(parent), m_parent(parent), m_notTranslatedText(notTranslatedText)
 {
+    Q_INIT_RESOURCE(resources);
     this->setStyleSheet(QString(DEFAULT_STYLE_BUTTON) + QString(DEFAULT_BACKGROUND_BUTTON));
     connect(this, SIGNAL(pressedKey(bool)), SLOT(getKeyPress(bool)));
     if ((static_cast<WidgetKeyBoard *> (parent))->isEmbeddedKeyboard() == true)

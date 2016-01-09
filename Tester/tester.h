@@ -7,7 +7,7 @@
 #include <QListWidget>
 #include <QListWidgetItem>
 #include <QTranslator>
-
+#include <QFile>
 
 namespace Ui
 {

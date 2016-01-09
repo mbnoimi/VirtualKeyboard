@@ -21,8 +21,8 @@
 #include <QLineEdit>
 #include <QClipboard>
 #include <QLabel>
-//
-//
+#include <QTranslator>
+
 // classe che crea e controlla la tastiera:
 class WidgetKeyBoard : public QWidget {
     Q_OBJECT
@@ -45,6 +45,9 @@ public:
     bool            isEnabledSwitchingEcho(void); // current status
     void            borderFrame(bool visible = true);
     QLabel *        zoomedWidget();
+//FIXME
+//    int getCurrentLanguage() const;
+//    void setCurrentLanguage(int currentLanguage);
 
 public slots:
     void            show(QWidget *activeForm);
@@ -78,6 +81,9 @@ private:
     bool            m_enablePasswordEcho; // controls the possibility to change among normal/password echo
     QSound          m_player;
     QClipboard      *m_clipboard;
+    //FIXME
+//    int _currentLanguage;
+//    QTranslator *_translator;
 };
 
 #endif // _WIDGETKEYBOARD_H

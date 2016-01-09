@@ -32,9 +32,12 @@ WidgetKeyBoard::WidgetKeyBoard(bool embeddedKeyboard, QWidget *activeForm, QWidg
     m_currentTextBox(NULL), m_embeddedKeyboard(embeddedKeyboard), m_echoMode(false), m_zoomFacilityEmbedded(false), m_enablePasswordEcho(false),
     m_player(QDir::currentPath() + CLICK_SOUND), m_clipboard(QApplication::clipboard())
 {
+    Q_INIT_RESOURCE(resources);
     this->m_zoomedKey = NULL;
     this->m_clipboard->clear();
     this->setWindowIcon(QPixmap(":/images/logo"));
+    //FIXME
+//    _translator = new QTranslator;
 }
 
 WidgetKeyBoard::~WidgetKeyBoard()
@@ -169,6 +172,31 @@ void WidgetKeyBoard::controlKeyEcho(QLineEdit *control)
         QApplication::processEvents();
     }
 }
+//FIXME
+//int WidgetKeyBoard::getCurrentLanguage() const
+//{
+//    return _currentLanguage;
+//}
+
+//FIXME
+//void WidgetKeyBoard::setCurrentLanguage(int currentLanguage)
+//{
+//    _currentLanguage = currentLanguage;
+//    if (currentLanguage == QLocale::Arabic)
+//        _translator->load("://i18n/WidgetKeyboard_ar.qm");
+//    else if (currentLanguage == QLocale::German)
+//        _translator->load("://i18n/WidgetKeyboard_de.qm");
+//    else if (currentLanguage == QLocale::English)
+//        _translator->load("://i18n/WidgetKeyboard_en.qm");
+//    else if (currentLanguage == QLocale::French)
+//        _translator->load("://i18n/WidgetKeyboard_fr.qm");
+//    else if (currentLanguage == QLocale::Italian)
+//        _translator->load("://i18n/WidgetKeyboard_it.qm");
+//    else if (currentLanguage == QLocale::Russian)
+//        _translator->load("://i18n/WidgetKeyboard_ru.qm");
+//    else
+//        _translator->load("://i18n/WidgetKeyboard_en.qm");
+//}
 
 //
 // riceve i caratteri che sono stati digitati:
@@ -343,7 +371,6 @@ QLabel *WidgetKeyBoard::zoomedWidget()
 {
     return (this->m_zoomedKey);
 }
-
 
 void WidgetKeyBoard::focusThis(QLineEdit *control)
 {

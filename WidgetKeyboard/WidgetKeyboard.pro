@@ -29,7 +29,6 @@ TRANSLATIONS += \
     i18n/WidgetKeyboard_ru.ts
 
 RESOURCES += \
-    languages.qrc \
     resources.qrc
 
 OTHER_FILES += \
