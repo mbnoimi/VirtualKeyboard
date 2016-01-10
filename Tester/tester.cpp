@@ -12,7 +12,7 @@ Tester::Tester(QWidget *parent)
 {
     QListWidgetItem     defaultLanguage("English");
 
-    ui->setupUi(this);    
+    ui->setupUi(this);
     myTranslator = new QTranslator(this);
     this->myKeyboard = new WidgetKeyBoard(false);
     this->myKeyboard->setZoomFacility(true);
@@ -34,7 +34,7 @@ Tester::Tester(QWidget *parent)
 
 Tester::~Tester()
 {
-    delete ui;    
+    delete ui;
     delete (this->myKeyboard);
 }
 
@@ -47,10 +47,10 @@ void Tester::on_pushButton_clicked()
 {
     myKeyboard->show(this); // once created keyboard object, use this method to switch between windows
 #if QT_VERSION >= 0x050000
-    this->myKeyboard->move(this->x(), this->y() + this->myKeyboard->height()); // to move keyboard	
+    this->myKeyboard->move(this->x(), this->y() + this->myKeyboard->height()); // to move keyboard
 #else
-	 // move to center of screen, just below QLineEdit widget
-	 this->myKeyboard->move((QApplication::desktop()->screenGeometry().width() - myKeyboard->width())/2, this->y() + this->height() + 33);	// AW - 33 = height of window title bar + height of window frame
+    // move to center of screen, just below QLineEdit widget
+    this->myKeyboard->move((QApplication::desktop()->screenGeometry().width() - myKeyboard->width())/2, this->y() + this->height() + 33);	// AW - 33 = height of window title bar + height of window frame
 #endif
 }
 
@@ -95,15 +95,20 @@ void Tester::on_listWidget_itemClicked(QListWidgetItem *item)
     else
         local = new QLocale();
     //FIXME Unable to load translation for WidgetKeyboard!
-    if (myTranslator->load(*local, QLatin1String("tester"), QLatin1String("_"), QLatin1String(":/i18n")))
+    if (myTranslator->load(*local, "tester", "_", ":/i18n"))
         qApp->installTranslator(myTranslator);
     else
         qDebug("Failed to load a translation for QT in your local language");
 
-//    qApp->removeTranslator(myTranslator);
-    if (myTranslator->load(":/languages/arabic"))
-        qApp->installTranslator(myTranslator);
+    QTranslator *translator = new QTranslator;
+    if (translator->load(*local, "WidgetKeyboard", "_", ":/languages/i18n"))
+        qApp->installTranslator(translator);
     else
         qDebug("Failed to load translation from static library");
+
+//    QDirIterator it(":", QDirIterator::Subdirectories);
+//    while (it.hasNext()) {
+//        qDebug() << it.next();
+//    }
 
 }

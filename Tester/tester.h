@@ -8,6 +8,7 @@
 #include <QListWidgetItem>
 #include <QTranslator>
 #include <QFile>
+#include <QDirIterator>
 
 namespace Ui
 {
