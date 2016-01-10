@@ -100,9 +100,10 @@ void Tester::on_listWidget_itemClicked(QListWidgetItem *item)
     else
         qDebug("Failed to load a translation for QT in your local language");
 
-
+//    qApp->removeTranslator(myTranslator);
     if (myTranslator->load(":/languages/arabic"))
         qApp->installTranslator(myTranslator);
     else
         qDebug("Failed to load translation from static library");
+
 }

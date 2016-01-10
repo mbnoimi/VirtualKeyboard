@@ -32,5 +32,5 @@ OTHER_FILES += \
     i18n/*.ts
 
 RESOURCES += \
-    resources.qrc
+    langs.qrc
 
