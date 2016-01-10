@@ -68,9 +68,9 @@ void Tester::closeEvent(QCloseEvent * event)
 
 void Tester::changeEvent(QEvent *event)
 {
-    if (event->type() == QEvent::LanguageChange)
+    if (event->type() == QEvent::LanguageChange) {
         ui->retranslateUi(this);
-    else
+    } else
         QWidget::changeEvent(event);
 }
 
@@ -101,13 +101,9 @@ void Tester::on_listWidget_itemClicked(QListWidgetItem *item)
         qDebug("Failed to load a translation for QT in your local language");
 
     Q_INIT_RESOURCE(resources);
+
     if (myTranslator->load(":/languages/arabic"))
         qApp->installTranslator(myTranslator);
     else
-        qDebug("Failed to load a translation for QT in your local language");
-
-    QFile file("://sounds/click.wav");
-    if (!file.copy("/home/mbnoimi-work/click.wav"))
-        qDebug() << "Unable to copy";
-    file.close();
+        qDebug("Failed to load translation from static library");
 }
