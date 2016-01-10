@@ -6,22 +6,22 @@
     <message>
         <location filename="../tester.ui" line="14"/>
         <source>QLineEdit virtual keyboard Example</source>
-        <translation type="unfinished"></translation>
+        <translation>QLineEdit virtual keyboard Example</translation>
     </message>
     <message>
         <location filename="../tester.ui" line="58"/>
         <source>Open virtual keyboard!</source>
-        <translation type="unfinished"></translation>
+        <translation>Open virtual keyboard!</translation>
     </message>
     <message>
         <location filename="../tester.ui" line="65"/>
         <source>Hide virtual keyboard!</source>
-        <translation type="unfinished"></translation>
+        <translation>Hide virtual keyboard!</translation>
     </message>
     <message>
         <location filename="../tester.cpp" line="21"/>
         <source>Focus that below without virtual keyboard TAB:</source>
-        <translation type="unfinished"></translation>
+        <translation>Focus that below without virtual keyboard TAB:</translation>
     </message>
 </context>
 </TS>

@@ -25,197 +25,197 @@
     <message>
         <location filename="../widgetkeyboard.cpp" line="399"/>
         <source>0</source>
-        <translation type="unfinished"></translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="400"/>
         <source>/</source>
-        <translation type="unfinished"></translation>
+        <translation>/</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="401"/>
         <source>?</source>
-        <translation type="unfinished"></translation>
+        <translation>?</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="402"/>
         <source>&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="434"/>
         <source>Q</source>
-        <translation type="unfinished">A</translation>
+        <translation>A</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="435"/>
         <source>W</source>
-        <translation type="unfinished">Z</translation>
+        <translation>Z</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="436"/>
         <source>E</source>
-        <translation type="unfinished"></translation>
+        <translation>E</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="437"/>
         <source>R</source>
-        <translation type="unfinished"></translation>
+        <translation>R</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="438"/>
         <source>T</source>
-        <translation type="unfinished"></translation>
+        <translation>T</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="439"/>
         <source>Y</source>
-        <translation type="unfinished">M</translation>
+        <translation>M</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="440"/>
         <source>U</source>
-        <translation type="unfinished"></translation>
+        <translation>U</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="441"/>
         <source>I</source>
-        <translation type="unfinished"></translation>
+        <translation>I</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="442"/>
         <source>O</source>
-        <translation type="unfinished"></translation>
+        <translation>O</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="443"/>
         <source>P</source>
-        <translation type="unfinished"></translation>
+        <translation>P</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="444"/>
         <source>+</source>
-        <translation type="unfinished">^</translation>
+        <translation>^</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="445"/>
         <source>*</source>
-        <translation type="unfinished">$</translation>
+        <translation>$</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="446"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="461"/>
         <source>A</source>
-        <translation type="unfinished">Q</translation>
+        <translation>Q</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="462"/>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="463"/>
         <source>D</source>
-        <translation type="unfinished"></translation>
+        <translation>D</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="464"/>
         <source>F</source>
-        <translation type="unfinished"></translation>
+        <translation>F</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="465"/>
         <source>G</source>
-        <translation type="unfinished"></translation>
+        <translation>G</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="466"/>
         <source>H</source>
-        <translation type="unfinished"></translation>
+        <translation>H</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="467"/>
         <source>J</source>
-        <translation type="unfinished"></translation>
+        <translation>J</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="468"/>
         <source>K</source>
-        <translation type="unfinished"></translation>
+        <translation>K</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="469"/>
         <source>L</source>
-        <translation type="unfinished"></translation>
+        <translation>L</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="473"/>
         <source>@</source>
-        <translation type="unfinished"></translation>
+        <translation>@</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="501"/>
         <source>_</source>
-        <translation type="unfinished">&lt;</translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="502"/>
         <source>Z</source>
-        <translation type="unfinished">W</translation>
+        <translation>W</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="503"/>
         <source>X</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="504"/>
         <source>C</source>
-        <translation type="unfinished"></translation>
+        <translation>C</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="505"/>
         <source>V</source>
-        <translation type="unfinished"></translation>
+        <translation>V</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="506"/>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="507"/>
         <source>N</source>
-        <translation type="unfinished"></translation>
+        <translation>N</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="508"/>
         <source>M</source>
-        <translation type="unfinished">,</translation>
+        <translation>M</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="509"/>
         <source>,</source>
-        <translation type="unfinished">;</translation>
+        <translation>,</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="510"/>
         <source>;</source>
-        <translation type="unfinished">:</translation>
+        <translation>;</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="511"/>
         <source>:</source>
-        <translation type="unfinished">!</translation>
+        <translation>:</translation>
     </message>
     <message>
         <location filename="../widgetkeyboard.cpp" line="512"/>
         <source>.</source>
-        <translation type="unfinished"></translation>
+        <translation>.</translation>
     </message>
 </context>
 <context>
